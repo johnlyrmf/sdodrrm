@@ -1,0 +1,17 @@
+DRRM STORYBOOK PORTAL
+Schools Division Office of Romblon
+
+HOW TO OPEN
+1. Double-click index.html to open the portal.
+2. Select a story card to open the animated story reader.
+3. Use Upload PDF to choose any PDF from your computer and view it as a flipbook.
+
+FILES
+- index.html: main story portal
+- reader.html: illustrated storybook reader
+- portal.css / portal.js: portal design and PDF flipbook controls
+- styles.css: story reader design
+- assets: story illustrations, branding, and the bundled PDF reader
+
+PRIVACY
+Uploaded PDFs are processed inside your browser and are not sent to a website.

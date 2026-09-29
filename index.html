@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123f36">
+  <title>DRRM Storybook Portal | SDO Romblon</title>
+  <link rel="stylesheet" href="portal.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="agency-lockup" href="#top" aria-label="DRRM Storybook Portal home">
+      <span class="seal seal-national"><img src="assets/branding/deped-national-seal.png" alt="Department of Education seal"></span>
+      <span class="agency-copy">
+        <strong>Department of Education</strong>
+        <span>Schools Division Office of Romblon</span>
+      </span>
+      <span class="seal seal-division"><img src="assets/branding/sdo-romblon-seal.png" alt="Schools Division of Romblon seal"></span>
+    </a>
+
+    <nav class="top-actions" aria-label="Portal navigation">
+      <a href="#library">Story Library</a>
+      <button class="button button-gold" type="button" data-open-upload>Upload PDF</button>
+      <a class="button button-outline" href="reader.html#page-1">Open Reader</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Disaster readiness through reading</p>
+        <h1 id="hero-title">Stories that prepare young minds.</h1>
+        <p class="hero-intro">Explore illustrated DRRM stories for Filipino learners, or turn any PDF into a book you can flip through on screen.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#library">Browse the stories</a>
+          <button class="button button-light" type="button" data-open-upload>Make a flipbook</button>
+        </div>
+        <div class="hero-facts" aria-label="Portal features">
+          <span><strong>3</strong> featured stories</span>
+          <span><strong>A4</strong> print ready pages</span>
+          <span><strong>Local</strong> PDF processing</span>
+        </div>
+      </div>
+
+      <div class="cover-showcase" aria-label="Featured story covers">
+        <a class="showcase-cover cover-left" href="reader.html#story2-page-1" aria-label="Open Messy's Preparedness Adventure">
+          <img src="assets/story2/01-cover.jpg" alt="Cover of Messy's Preparedness Adventure">
+        </a>
+        <a class="showcase-cover cover-center" href="reader.html#page-1" aria-label="Open Barangay Anahao: The Prepared Community">
+          <img src="assets/story1/01-cover.jpg" alt="Cover of Barangay Anahao: The Prepared Community">
+        </a>
+        <a class="showcase-cover cover-right" href="reader.html#story3-page-1" aria-label="Open Avriel and the Storm">
+          <img src="assets/story3/01-cover.jpg" alt="Cover of Avriel and the Storm">
+        </a>
+        <span class="showcase-glow" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <section class="library-section" id="library" aria-labelledby="library-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Featured collection</p>
+          <h2 id="library-title">Choose a story</h2>
+        </div>
+        <p>Each story opens in the full animated reader with page controls, fullscreen view, and print support.</p>
+      </div>
+
+      <div class="story-grid">
+        <article class="story-card">
+          <a class="story-cover" href="reader.html#page-1">
+            <img src="assets/story1/01-cover.jpg" alt="Barangay Anahao: The Prepared Community cover">
+            <span class="read-badge">Open story</span>
+          </a>
+          <div class="story-details">
+            <div class="tags"><span>English</span><span>Grade 5</span></div>
+            <h3>Barangay Anahao: The Prepared Community</h3>
+            <p class="author">Shy S. Yesca</p>
+            <p>Discover how a community prepares, works together, and stays safe when heavy rain brings flooding.</p>
+            <a class="story-link" href="reader.html#page-1">Read the story <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <a class="story-cover" href="reader.html#story2-page-1">
+            <img src="assets/story2/01-cover.jpg" alt="Messy's Preparedness Adventure cover">
+            <span class="read-badge">Open story</span>
+          </a>
+          <div class="story-details">
+            <div class="tags"><span>Language</span><span>Grade 1</span></div>
+            <h3>Messy’s Preparedness Adventure</h3>
+            <p class="author">Hannah O. Fallesgon</p>
+            <p>Join Messy as she learns the simple steps every young learner can take to prepare for floods.</p>
+            <a class="story-link" href="reader.html#story2-page-1">Read the story <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <a class="story-cover" href="reader.html#story3-page-1">
+            <img src="assets/story3/01-cover.jpg" alt="Avriel and the Storm cover">
+            <span class="read-badge">Open story</span>
+          </a>
+          <div class="story-details">
+            <div class="tags"><span>English</span><span>Grade 3</span></div>
+            <h3>Avriel and the Storm</h3>
+            <p class="author">Mary Rose F. Pahit</p>
+            <p>Follow Avriel through a storm and learn how calm choices and preparedness help keep families safe.</p>
+            <a class="story-link" href="reader.html#story3-page-1">Read the story <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="upload-section" id="upload" aria-labelledby="upload-title">
+      <div class="upload-copy">
+        <p class="eyebrow">Your own digital book</p>
+        <h2 id="upload-title">Turn a PDF into a flipbook</h2>
+        <p>Select a PDF from this computer. It opens here as a smooth page turning book and remains on the device.</p>
+        <ul>
+          <li>Animated page turns</li>
+          <li>Keyboard and click navigation</li>
+          <li>Fullscreen reading mode</li>
+        </ul>
+      </div>
+
+      <div class="drop-zone" id="drop-zone">
+        <input id="pdf-input" type="file" accept="application/pdf,.pdf" hidden>
+        <div class="upload-icon" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img"><path d="M32 42V12m0 0L20 24m12-12 12 12M14 38v10a6 6 0 0 0 6 6h24a6 6 0 0 0 6-6V38"/></svg>
+        </div>
+        <h3>Drop your PDF here</h3>
+        <p>or choose a file from your computer</p>
+        <button class="button button-primary" id="pick-pdf" type="button">Choose PDF</button>
+        <small id="upload-status">PDF files only</small>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <span class="seal seal-small"><img src="assets/branding/sdo-romblon-seal.png" alt=""></span>
+      <div><strong>DRRM Storybook Portal</strong><span>Schools Division Office of Romblon</span></div>
+    </div>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <div class="pdf-overlay" id="pdf-reader" hidden aria-hidden="true">
+    <div class="pdf-toolbar">
+      <div class="pdf-title-wrap">
+        <span class="pdf-mark" aria-hidden="true">PDF</span>
+        <div><strong id="pdf-title">Flipbook</strong><span id="pdf-file-meta">Preparing your book…</span></div>
+      </div>
+      <div class="pdf-toolbar-actions">
+        <button type="button" id="pdf-fullscreen" aria-label="View flipbook in fullscreen">Fullscreen</button>
+        <button class="pdf-close" type="button" id="pdf-close" aria-label="Close flipbook">×</button>
+      </div>
+    </div>
+
+    <div class="pdf-stage" id="pdf-stage">
+      <button class="edge-turn edge-prev" id="edge-prev" type="button" aria-label="Previous page">‹</button>
+      <div class="pdf-book" id="pdf-book" aria-live="polite">
+        <div class="page-shadow" aria-hidden="true"></div>
+        <div class="pdf-page-shell">
+          <canvas id="pdf-canvas-back"></canvas>
+          <canvas id="pdf-canvas-front"></canvas>
+          <span class="page-sheen" aria-hidden="true"></span>
+        </div>
+        <div class="pdf-loading" id="pdf-loading"><span></span><p>Preparing your flipbook…</p></div>
+      </div>
+      <button class="edge-turn edge-next" id="edge-next" type="button" aria-label="Next page">›</button>
+    </div>
+
+    <div class="pdf-controls">
+      <button type="button" id="pdf-prev">← Previous</button>
+      <div class="pdf-progress">
+        <strong id="pdf-page-label">Page 1 of 1</strong>
+        <input id="pdf-page-slider" type="range" min="1" max="1" value="1" aria-label="Go to page">
+      </div>
+      <button type="button" id="pdf-next">Next →</button>
+    </div>
+  </div>
+
+  <script src="assets/vendor/pdf.worker.min.js"></script>
+  <script src="assets/vendor/pdf.min.js"></script>
+  <script src="portal.js"></script>
+</body>
+</html>
